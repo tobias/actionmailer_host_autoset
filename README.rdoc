@@ -10,8 +10,15 @@ In the cases when the request object is not available, for example, when
 running tests, default values are set instead. 
 
 This is basically a repackaging of retardase_inhibitor 
-(http://github.com/luke0x/retardase_inhibitor), with a less terrible name and 
+(http://github.com/luke0x/retardase_inhibitor), with more descriptive name and 
 a gemspec that will actually build on github (yay for jeweler!).
+
+=Installation
+
+    # if you haven't already:
+    gem sources -a http://gems.github.com 
+
+    gem install tobias-actioncontroller_host_autotest
 
 =Usage
 
