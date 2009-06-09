@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{actionmailer_host_autoset}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tobias Crawley"]
@@ -21,8 +21,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "actionmailer_host_autoset.gemspec",
      "lib/actionmailer_host_autoset.rb",
-     "rails/init.rb",
-     "rails/init.rb",
+     "lib/actionmailer_host_autoset/actionmailer_host_autoset.rb",
      "test/actionmailer_host_autoset_test.rb",
      "test/test_helper.rb"
   ]
