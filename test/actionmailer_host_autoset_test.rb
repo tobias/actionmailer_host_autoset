@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class ActionmailerHostAutosetTest < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "probably have some tests" do
+    flunk "but it doesn't!"
   end
 end

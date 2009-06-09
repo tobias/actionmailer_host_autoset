@@ -5,10 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "actionmailer_host_autoset"
-    gem.summary = %Q{TODO}
+    gem.summary = "Sets :host for url_for calls within ActionMailer. A repackaged and renamed version of http://github.com/luke0x/retardase_inhibitor"
     gem.email = "tcrawley@gmail.com"
     gem.homepage = "http://github.com/tobias/actionmailer_host_autoset"
-    gem.authors = ["tobias"]
+    gem.authors = ["Tobias Crawley"]
+    gem.files << 'rails/init.rb'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
