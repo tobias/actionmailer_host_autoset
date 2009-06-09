@@ -20,9 +20,13 @@ a gemspec that will actually build on github (yay for jeweler!).
 
     gem install tobias-actioncontroller_host_autoset
 
-Then, in environment.rb:
+Or, in environment.rb:
    
     config.gem 'tobias-actionmailer_host_autoset', :source => 'http://gems.github.com', :lib => 'actionmailer_host_autoset'
+
+Then:
+
+    rake gems:install
 
 =Usage
 
