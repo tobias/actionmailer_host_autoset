@@ -1,0 +1,7 @@
+= actionmailer_host_autoset
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 tobias. See LICENSE for details.
