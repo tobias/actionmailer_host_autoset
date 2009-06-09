@@ -9,7 +9,6 @@ begin
     gem.email = "tcrawley@gmail.com"
     gem.homepage = "http://github.com/tobias/actionmailer_host_autoset"
     gem.authors = ["Tobias Crawley"]
-    gem.files << 'rails/init.rb'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
