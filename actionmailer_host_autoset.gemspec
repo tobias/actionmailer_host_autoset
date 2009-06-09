@@ -19,7 +19,9 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "actionmailer_host_autoset.gemspec",
      "lib/actionmailer_host_autoset.rb",
+     "rails/init.rb",
      "rails/init.rb",
      "test/actionmailer_host_autoset_test.rb",
      "test/test_helper.rb"
