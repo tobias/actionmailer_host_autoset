@@ -15,14 +15,15 @@ a gemspec that will actually build on github (yay for jeweler!).
 
 =Installation
 
-    # if you haven't already:
-    gem sources -a http://gems.github.com 
+    # setup gemcutter, if you haven't already:
+    gem install gemcutter
+    gem tumble
 
-    gem install tobias-actioncontroller_host_autoset
+    gem install actioncontroller_host_autoset
 
 Or, in environment.rb:
    
-    config.gem 'tobias-actionmailer_host_autoset', :source => 'http://gems.github.com', :lib => 'actionmailer_host_autoset'
+    config.gem 'actionmailer_host_autoset', :source => 'http://gems.gemcutter.org'
 
 Then:
 
